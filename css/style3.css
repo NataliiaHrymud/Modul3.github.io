@@ -1,5 +1,5 @@
-div.block {
-    width: auto;
+﻿div.block {
+    min-width: 900px;
     text-align: center;
     height: auto;
     position: relative;
@@ -16,7 +16,6 @@ li {
 }
 
 li:hover {
-    color: #ffe; /* Цвет текста активного пункта */
     font-size: 14px;
     color: #03a9f4;
     list-style-type: none;
@@ -25,13 +24,16 @@ li:hover {
 .wrapper {
     display: inline-block;
     width: 420px;
-    height: 480px;
+    height: 490px;
     font-size: 14px;
     font-family: 'Playfair Display', serif;
     color: #7c7c7c;
     margin: 60px;
+    overflow: hidden;
 }
-
+.wrapper img {
+    width: 100%;
+}
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
@@ -41,11 +43,14 @@ h2 {
 }
 
 article {
-    width: 1200px;
+    min-width: 900px;
     font-family: 'Playfair Display', serif;
-    margin: auto;
+    text-align: center;
 }
 
+div p {
+    text-align: left;
+}
 .text {
     font-size: 14px;
     text-transform: uppercase;
@@ -64,6 +69,11 @@ article {
     border-style: solid;
     width: 164px;
     height: 60px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: #626262;
+    line-height: 1.2;
+}
     font-size: 20px;
     font-family: "Playfair Display";
     color: #626262;
