@@ -31,11 +31,12 @@ a:hover {
 .wrapper {
     width: 900px;
     margin: auto;
-}
-
-.card {
     font-size: 0;
 }
+
+/* .card {
+    font-size: 0;
+} */
 
 .card {
     display: inline-block;
@@ -44,7 +45,7 @@ a:hover {
     min-height: 478px;
     font-family: 'Playfair Display', serif;
     color: #7c7c7c;
-    margin-right: 56px;
+    margin-right: 60px;
     margin-bottom: 30px;
 }
 
