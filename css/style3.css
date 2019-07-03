@@ -28,22 +28,26 @@ a:hover {
     list-style-type: none;
 }
 
-main {
-    min-width: 900px;
-    text-align: center;
+.wrapper {
+    width: 900px;
+    margin: auto;
 }
 
-.wrapper {
+.card {
     display: inline-block;
+    vertical-align: top;
     width: 420px;
-    height: 490px;
+    min-height: 478px;
     font-size: 14px;
     font-family: 'Playfair Display', serif;
     color: #7c7c7c;
-    margin: 60px;
-    overflow: hidden;
+    margin-right: 56px;
+    margin-bottom: 30px;
 }
-.wrapper img {
+.card:nth-of-type(2n) {
+    margin-right: 0;
+}
+.card img {
     width: 100%;
 }
 
