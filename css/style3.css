@@ -34,19 +34,24 @@ a:hover {
 }
 
 .card {
+    font-size: 0;
+}
+
+.card {
     display: inline-block;
     vertical-align: top;
     width: 420px;
     min-height: 478px;
-    font-size: 14px;
     font-family: 'Playfair Display', serif;
     color: #7c7c7c;
     margin-right: 56px;
     margin-bottom: 30px;
 }
+
 .card:nth-of-type(2n) {
     margin-right: 0;
 }
+
 .card img {
     width: 100%;
 }
@@ -72,23 +77,23 @@ h4 {
     font-weight: normal;
 }
 
+p {
+    font-size: 14px;
+}
+
 footer {
     text-align: center;
 }
+
 .control {
-    /* display: block; */
     margin: 0 auto 60px auto;
     background: transparent;
     border-width: 1px;
     border-color: #626262;
     border-style: solid;
-    /* width: 164px;
-    height: 60px; */
     font-size: 20px;
     font-family: "Playfair Display";
     color: #626262;
     line-height: 1.2;
-    /* padding-left: 34px;
-    padding-right: 34px; */
     padding: 20px 34px;
 }
